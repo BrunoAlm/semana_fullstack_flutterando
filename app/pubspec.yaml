@@ -34,7 +34,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   uno: ^1.0.1+5
   result_dart: ^1.0.5
-  flutter_modular: ^5.0.3
+  flutter_modular: ^6.0.0-alpha.5
   realm: ^1.0.0
 
 dev_dependencies:
@@ -43,6 +43,7 @@ dev_dependencies:
   flutterando_analysis: ^0.0.2
   flutter_lints: ^2.0.0
   mocktail: ^0.3.0
+  intl: ^0.18.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
