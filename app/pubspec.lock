@@ -5,18 +5,18 @@ packages:
     dependency: transitive
     description:
       name: _fe_analyzer_shared
-      sha256: "0c80aeab9bc807ab10022cd3b2f4cf2ecdf231949dc1ddd9442406a003f19201"
+      sha256: a36ec4843dc30ea6bf652bf25e3448db6c5e8bcf4aa55f063a5d1dad216d8214
       url: "https://pub.dev"
     source: hosted
-    version: "52.0.0"
+    version: "58.0.0"
   analyzer:
     dependency: transitive
     description:
       name: analyzer
-      sha256: cd8ee83568a77f3ae6b913a36093a1c9b1264e7cb7f834d9ddd2311dade9c1f4
+      sha256: cc4242565347e98424ce9945c819c192ec0838cb9d1f6aa4a97cc96becbc5b27
       url: "https://pub.dev"
     source: hosted
-    version: "5.4.0"
+    version: "5.10.0"
   args:
     dependency: transitive
     description:
@@ -90,7 +90,7 @@ packages:
     source: hosted
     version: "2.1.0"
   build_runner:
-    dependency: transitive
+    dependency: "direct dev"
     description:
       name: build_runner
       sha256: b0a8a7b8a76c493e85f1b84bffa0588859a06197863dba8c9036b15581fd9727
@@ -515,6 +515,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.5"
+  rx_notifier:
+    dependency: "direct main"
+    description:
+      name: rx_notifier
+      sha256: "573b1593a5d6ea147e4dca196d74d0cb913daa32ad63a2c1f48d996bf2c352b5"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.1"
+  rx_notifier_annotation:
+    dependency: transitive
+    description:
+      name: rx_notifier_annotation
+      sha256: "362496563d617aa6fa21ab9c131f66348f3266b6580d69ecc23d2c23a52070a2"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
+  rx_notifier_generator:
+    dependency: "direct dev"
+    description:
+      name: rx_notifier_generator
+      sha256: "1d6a0c701b3a604a9cbb54c6fb678f3b28c3a5ecef344ad62e5ae8eb9a1d1503"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.2"
   sane_uuid:
     dependency: transitive
     description:
